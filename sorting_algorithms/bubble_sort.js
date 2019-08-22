@@ -1,5 +1,5 @@
 //TIME COMPLEXITY: worst case - O(n^2) nearly sorted - O(n)
-//BASIC IDEA: Sorting an array by repeatedly swapping adjacent elements. 
+//BASIC IDEA: Sorting an array by repeatedly swapping adjacent elements
 
 let arr = [4,1,56,3,12]
 
