@@ -1,4 +1,4 @@
-//TIME COMPLEXITY: O(n^2)
+//TIME COMPLEXITY: worse case - O(n^2)
 //BASIC IDEA: Find minimum value and move it to the beginning of the array
 
 let arr = [4,1,56,3,12]
@@ -10,6 +10,7 @@ function swap(arr, i, j){
     arr[j] = temp; 
 }
 
+// basic implementation
 function selectionSort(arr){
     for (let i = 0; i < arr.length; i++){
         let min = arr[i];
